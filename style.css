@@ -9,12 +9,15 @@ main {
     padding: 10%;
     border: 5%;
     border-radius: 10px;
+    scroll-padding-bottom: ;
 
 }
 h1 {
     background-color: red;
     text-align: center;
     font-family: fantasy;
+    border: 5%;
+    
 }
 form {
     text-align: center;
@@ -29,4 +32,16 @@ label {
 input {
     font-size: large;
     font: optional;
+}
+@media screen and (max-width: 150px) {
+input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+@media screen and (max-width: 600px) {
+input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
